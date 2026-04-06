@@ -1,4 +1,3 @@
-import "./style.css";
 import { renderNavbar } from "./components/navbar.js";
 import { renderHome } from "./views/home.js";
 import { renderAuth } from "./views/auth.js";
