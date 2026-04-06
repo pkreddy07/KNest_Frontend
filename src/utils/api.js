@@ -1,4 +1,4 @@
-const API_BASE = "https://knest-backend.onrender.com";
+const API_BASE = "https://knest-backend.onrender.com/api";
 
 export async function apiCall(endpoint, options = {}) {
   const token = localStorage.getItem("token");
