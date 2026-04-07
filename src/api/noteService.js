@@ -36,7 +36,7 @@ export const noteService = {
     if (!token) throw new Error("Not Authorized: Please log in to download.");
     
     try {
-      const response = await fetch(`http://localhost:5000/api/notes/download/${id}`, {
+      const response = await fetch(`https://knest-backend.onrender.com/api/notes/download/${id}`, {
         method: "GET",
         headers: { "Authorization": `Bearer ${token}` }
       });
